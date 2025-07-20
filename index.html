@@ -11,16 +11,17 @@
   </head>
   <body>
     <div class="hero-container">
-      <header>
+      <header style="position:sticky;">
         <h1>Beyondimage</h1>
         <ul>
           <li><a href="">Home</a></li>
-          <li><a href="">Now Showing</a></li>
-          <li><a href="">Popular</a></li>
-          <li><a href="">All Movies</a></li>
+          <li><a href="#now-showing">Now Showing</a></li>
+          <li><a href="#popular">Popular</a></li>
+          <li><a href="#all-movies">All Movies</a></li>
           <li><a href="" style="background-color: red;">Contact Us</a></li>
         </ul>
       </header>
+
       <div class="hero" >
         <h2>
           Experience the <br />
@@ -30,7 +31,7 @@
       </div>
     </div>
 
-    <div class="now-showing">
+    <div class="now-showing" id="now-showing">
         <h2>Now Showing</h2>
         <div class="now-container">
       <div class="first-show">
@@ -55,9 +56,71 @@
       </div>
     </div>
 
-    <div class="popular">
-        <div></div>
-        <div></div>
+    <div class="popular" id="popular">
+        <h2 style="color: #ffff;">Popular</h2>
+        <div class="popular-container">
+       <div>
+               <span>Best Seller</span>
+            <img src="images/Aethel.PNG" alt="Whispers of Aethel" width="300px" height="290px">
+            <h3>Whispers of Aethel</h3>
+            <p>Lorem ipsum dolor sit amet consectetur</p>
+            <button><a href="#">Buy Ticket</a></button>
+               
+      </div>
+      <div>
+             <span>Best Seller</span>
+            <img src="images/echoes.PNG" alt="Echoes in the Void" width="300px" height="290px">
+            <h3>Echoes in the Void</h3>
+            <p>Lorem ipsum dolor sit amet consectetur</p>
+            <button><a href="#">Buy Ticket</a></button>
+      </div>
+      </div>
     </div>
+
+
+   <div class="all-movies" id="all-movies">
+    <h2 style="color: #ffff;">All movies</h2>
+    <div class="all-container">
+        <div>
+            <img src="images/dark-stars.png" alt="Starts in Dark" width="300px" height="290px">
+            <h3>Starts in Dark</h3>
+            <p>Lorem ipsum dolor sit amet consectetur</p>
+            <button><a href="#">Buy Ticket</a></button>
+        </div>
+        <div>
+            <img src="images/nebula.PNG" alt="Nubela's Whisper" width="300px" height="290px">
+            <h3>Nubela's Whisper</h3>
+            <p>Lorem ipsum dolor sit amet consectetur</p>
+            <button><a href="#">Buy Ticket</a></button>
+        </div>
+        <div>
+            <img src="images/dark sky.PNG" alt="Dark Sky" width="280px" height="290px">
+            <h3>Dark Sky</h3>
+            <p>Lorem ipsum dolor sit amet consectetur</p>
+            <button><a href="#">Buy Ticket</a></button>
+        </div>
+
+        <div>
+            <img src="images/cosmic.png" alt="Cosmic Drift" width="280px" height="290px">
+            <h3>Cosmic Drift</h3>
+            <p>Lorem ipsum dolor sit amet consectetur</p>
+            <button><a href="#">Buy Ticket</a></button>
+        </div>
+        <div>
+            <img src="images/Aethel.PNG" alt="Whispers of Aethel" width="280px" height="290px">
+            <h3>Whispers of Aethel</h3>
+            <p>Lorem ipsum dolor sit amet consectetur</p>
+            <button><a href="#">Buy Ticket</a></button>
+        </div>
+        <div>
+            <img src="images/echoes.PNG" alt="Echoes in the Void " width="280px" height="290px">
+            <h3>Echoes in the Void</h3>
+            <p>Lorem ipsum dolor sit amet consectetur</p>
+            <button><a href="#">Buy Ticket</a></button>
+        </div>
+    </div>
+</div>
+
+
   </body>
 </html>

@@ -1,126 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BeyondImagine</title>
     <link rel="stylesheet" href="styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <div class="hero-container">
-      <header style="position:sticky;">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header style="position:sticky;">
         <h1>Beyondimage</h1>
-        <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="#now-showing">Now Showing</a></li>
-          <li><a href="#popular">Popular</a></li>
-          <li><a href="#all-movies">All Movies</a></li>
-          <li><a href="" style="background-color: red;">Contact Us</a></li>
-        </ul>
-      </header>
+        <nav> 
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="#now-showing">Now Showing</a></li>
+                <li><a href="#popular">Popular</a></li>
+                <li><a href="#all-movies">All Movies</a></li>
+                <li><a href="#contact" style="background-color: red;">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
 
-      <div class="hero" >
-        <h2>
-          Experience the <br />
-          Majic of <span  >Cinema</span>
-        </h2>
-        <button>Buy Tickets Now</button>
-      </div>
-    </div>
+    <main> 
+        <section class="hero-container">
+            <div class="hero">
+                <h2>
+                    Experience the <br />
+                    Majic of <span>Cinema</span>
+                </h2>
+                <button>Buy Tickets Now</button>
+            </div>
+        </section>
 
-    <div class="now-showing" id="now-showing">
-        <h2>Now Showing</h2>
-        <div class="now-container">
-      <div class="first-show">
-            <img src="images/dark-stars.png" alt="Starts in Dark" width="300px" height="290px">
-            <h3>Starts in Dark</h3>
-            <p>Lorem ipsum dolor sit amet consectetur</p>
-            <button><a href="#">Buy Ticket</a></button>
-               
-      </div>
-      <div class="second-show">
-            <img src="images/nebula.PNG" alt="Nubela's Whisper" width="300px" height="290px">
-            <h3>Nubela's Whisper</h3>
-            <p>Lorem ipsum dolor sit amet consectetur</p>
-            <button><a href="#">Buy Ticket</a></button>
-      </div>
-      <div class="third-show">
-            <img src="images/dark sky.PNG" alt="Dark Sky" width="280px" height="290px">
-            <h3>Dark Sky</h3>
-            <p>Lorem ipsum dolor sit amet consectetur</p>
-            <button><a href="#">Buy Ticket</a></button>
-      </div>
-      </div>
-    </div>
+        <section class="now-showing" id="now-showing">
+            <h2>Now Showing</h2>
+            <div class="now-container">
+                <div class="first-show">
+                    <img src="images/dark-stars.png" alt="Starts in Dark" width="300px" height="290px">
+                    <h3>Starts in Dark</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                    <button><a href="#">Buy Ticket</a></button>
+                </div>
+                <div class="second-show">
+                    <img src="images/nebula.PNG" alt="Nubela's Whisper" width="300px" height="290px">
+                    <h3>Nubela's Whisper</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                    <button><a href="#">Buy Ticket</a></button>
+                </div>
+                <div class="third-show">
+                    <img src="images/dark sky.PNG" alt="Dark Sky" width="280px" height="290px">
+                    <h3>Dark Sky</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                    <button><a href="#">Buy Ticket</a></button>
+                </div>
+            </div>
+        </section>
 
-    <div class="popular" id="popular">
-        <h2 style="color: #ffff;">Popular</h2>
-        <div class="popular-container">
-       <div>
-               <span>Best Seller</span>
-            <img src="images/Aethel.PNG" alt="Whispers of Aethel" width="300px" height="290px">
-            <h3>Whispers of Aethel</h3>
-            <p>Lorem ipsum dolor sit amet consectetur</p>
-            <button><a href="#">Buy Ticket</a></button>
-               
-      </div>
-      <div>
-             <span>Best Seller</span>
-            <img src="images/echoes.PNG" alt="Echoes in the Void" width="300px" height="290px">
-            <h3>Echoes in the Void</h3>
-            <p>Lorem ipsum dolor sit amet consectetur</p>
-            <button><a href="#">Buy Ticket</a></button>
-      </div>
-      </div>
-    </div>
+        <section class="popular" id="popular"> 
+            <h2 style="color: #ffff;">Popular</h2>
+            <div class="popular-container">
+                <div>
+                    <span>Best Seller</span>
+                    <img src="images/Aethel.PNG" alt="Whispers of Aethel" width="300px" height="290px">
+                    <h3>Whispers of Aethel</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                    <button><a href="#">Buy Ticket</a></button>
+                </div>
+                <div>
+                    <span>Best Seller</span>
+                    <img src="images/echoes.PNG" alt="Echoes in the Void" width="300px" height="290px">
+                    <h3>Echoes in the Void</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                    <button><a href="#">Buy Ticket</a></button>
+                </div>
+            </div>
+        </section>
 
+        <section class="all-movies" id="all-movies">
+            <h2 style="color: #ffff;">All movies</h2>
+            <div class="all-container">
+                <div>
+                    <img src="images/dark-stars.png" alt="Starts in Dark" width="300px" height="290px">
+                    <h3>Starts in Dark</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                    <button><a href="#">Buy Ticket</a></button>
+                </div>
+                <div>
+                    <img src="images/nebula.PNG" alt="Nubela's Whisper" width="300px" height="290px">
+                    <h3>Nubela's Whisper</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                    <button><a href="#">Buy Ticket</a></button>
+                </div>
+                <div>
+                    <img src="images/dark sky.PNG" alt="Dark Sky" width="280px" height="290px">
+                    <h3>Dark Sky</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                    <button><a href="#">Buy Ticket</a></button>
+                </div>
 
-   <div class="all-movies" id="all-movies">
-    <h2 style="color: #ffff;">All movies</h2>
-    <div class="all-container">
-        <div>
-            <img src="images/dark-stars.png" alt="Starts in Dark" width="300px" height="290px">
-            <h3>Starts in Dark</h3>
-            <p>Lorem ipsum dolor sit amet consectetur</p>
-            <button><a href="#">Buy Ticket</a></button>
-        </div>
-        <div>
-            <img src="images/nebula.PNG" alt="Nubela's Whisper" width="300px" height="290px">
-            <h3>Nubela's Whisper</h3>
-            <p>Lorem ipsum dolor sit amet consectetur</p>
-            <button><a href="#">Buy Ticket</a></button>
-        </div>
-        <div>
-            <img src="images/dark sky.PNG" alt="Dark Sky" width="280px" height="290px">
-            <h3>Dark Sky</h3>
-            <p>Lorem ipsum dolor sit amet consectetur</p>
-            <button><a href="#">Buy Ticket</a></button>
-        </div>
+                <div>
+                    <img src="images/cosmic.png" alt="Cosmic Drift" width="280px" height="290px">
+                    <h3>Cosmic Drift</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                    <button><a href="#">Buy Ticket</a></button>
+                </div>
+                <div>
+                    <img src="images/Aethel.PNG" alt="Whispers of Aethel" width="280px" height="290px">
+                    <h3>Whispers of Aethel</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                    <button><a href="#">Buy Ticket</a></button>
+                </div>
+                <div>
+                    <img src="images/echoes.PNG" alt="Echoes in the Void " width="280px" height="290px">
+                    <h3>Echoes in the Void</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                    <button><a href="#">Buy Ticket</a></button>
+                </div>
+      
+                <div>
+                    <img src="images/dark-stars.png" alt="Starts in Dark (Duplicate)" width="300px" height="290px">
+                    <h3>Starts in Dark</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                    <button><a href="#">Buy Ticket</a></button>
+                </div>
+                <div>
+                    <img src="images/nebula.PNG" alt="Nubela's Whisper (Duplicate)" width="300px" height="290px">
+                    <h3>Nubela's Whisper</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                    <button><a href="#">Buy Ticket</a></button>
+                </div>
+                <div>
+                    <img src="images/dark sky.PNG" alt="Dark Sky (Duplicate)" width="280px" height="290px">
+                    <h3>Dark Sky</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                    <button><a href="#">Buy Ticket</a></button>
+                </div>
+            </div>
+        </section>
 
-        <div>
-            <img src="images/cosmic.png" alt="Cosmic Drift" width="280px" height="290px">
-            <h3>Cosmic Drift</h3>
-            <p>Lorem ipsum dolor sit amet consectetur</p>
-            <button><a href="#">Buy Ticket</a></button>
-        </div>
-        <div>
-            <img src="images/Aethel.PNG" alt="Whispers of Aethel" width="280px" height="290px">
-            <h3>Whispers of Aethel</h3>
-            <p>Lorem ipsum dolor sit amet consectetur</p>
-            <button><a href="#">Buy Ticket</a></button>
-        </div>
-        <div>
-            <img src="images/echoes.PNG" alt="Echoes in the Void " width="280px" height="290px">
-            <h3>Echoes in the Void</h3>
-            <p>Lorem ipsum dolor sit amet consectetur</p>
-            <button><a href="#">Buy Ticket</a></button>
-        </div>
-    </div>
-</div>
+        <section class="contact-us" id="contact">
+            <h2>Get in Touch 📞</h2>
+            <p>We'd love to hear from you! Reach out to us through any of the following channels:</p>
 
+            <div class="contact-info">
+                <h3>📍 Our Premier Location</h3>
+                <p>Find us at the heart of cinematic innovation, just beyond the ordinary. Our main venue, <strong>The Lumina Gateway</strong>, is where stories come alive and images transcend.</p>
+            </div>
 
-  </body>
+            <div class="contact-info">
+                <h3>📧 Email Us</h3>
+                <p>For inquiries, bookings, or to share your feedback on the latest cinematic wonders, drop us a line at: <a href="mailto:info@beyondimagemovies.com"><strong>info@beyondimagemovies.com</strong></a> 🎬</p>
+            </div>
+
+            <div class="contact-info">
+                <h3>📱 Call or Text</h3>
+                <p>Connect with our team to explore showtimes, special events, or for assistance with your visit: <a href="tel:+1555BEYOND-IMAG"><strong>+1 (555) BEYOND-IMAG</strong></a> 🌟</p>
+            </div>
+        </section>
+
+        <footer style="color: #fff; text-align: center; font-size: large; padding-bottom: 10px;">
+            <div>Beyondimage @2025</div>
+        </footer>
+    </main> 
+</body>
 </html>

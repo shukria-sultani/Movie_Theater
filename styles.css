@@ -3,7 +3,12 @@
     margin: 0;
     box-sizing: border-box;
     background-color: black;
+  font-family: "Montserrat", sans-serif;
 
+}
+.montserrat-font {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
 }
 .hero-container{
     width: 100%;
@@ -76,6 +81,7 @@ header ul li:nth-child(5){
   color: #ffff;
  font-size: 5rem;
   font-weight: bold;
+  background-color: transparent;
 }
 .hero h2 span{
    color: red;
@@ -92,8 +98,13 @@ header ul li:nth-child(5){
     cursor: pointer;
     outline: none;
     border: none;
-         box-shadow: 5px 5px 10px rgba(244, 35, 35, 0.5);
+    box-shadow: 5px 5px 10px rgba(244, 35, 35, 0.5);
 }
+
+
+
+/* now showing */
+
 
 .now-showing{
     color: #fffF;
@@ -104,16 +115,41 @@ header ul li:nth-child(5){
 .now-container{
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
     justify-content: center;
-    padding: 50px;
+    gap: 40px;
+    background-color: transparent;
+    margin-top: 50px;
+}
+.now-container div {
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 7px;
+    transition: all 1s ease-in-out; 
+
+}
+.now-container div:hover {
+    box-shadow: 2px 3px 3px 5px rgba(235, 26, 26, 0.5);
+    transform: scale(1.1); 
 }
 .now-container h2{
     text-align: center;
 }
 .now-container img{
     border-radius: 10px;
-    box-shadow: 5px 5px 10px rgba(235, 26, 26, 0.5);
+    align-self: center;
+}
+.now-container div{
+    cursor: pointer;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 7px;
+}
+.now-container div:hover{
+    flex-grow: 2;
+    transition: all 0.3s ease-in-out;
+        box-shadow: 5px 3px 3px 3px rgba(235, 26, 26, 0.5);
+
 }
 .now-container div h3{
      padding-left: 5px;
@@ -132,6 +168,7 @@ header ul li:nth-child(5){
      margin-top: 10px;
      border-radius: 7px;
      margin-left: 5px;
+     width: 150px;
          box-shadow: 5px 5px 10px rgba(244, 35, 35, 0.5);
 
 }
